@@ -40,14 +40,12 @@ Access and modification time complexity is constant O(1), the rest is O(N).
 Furthermore, you can enhance your array with a dynamic approach, basically you don’t set the initial space, as long as your are adding new elements it will follow a strategy, one strategy is creating a new array with double the size and them move all the elements.
 
 
-![Array memory allocation](/posts/ds-array/arrays_1.png "Array memory allocation")
-
-
 ```go
 integerArray := [4]int{100, 101, 102, 103}
 
 integerArray[0] = 1000
 ```
+_Array initialization and modification in Golang_
 
 ## Resources
 
